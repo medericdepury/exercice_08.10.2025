@@ -1,0 +1,22 @@
+body {}
+
+.titre {
+  color: #a54;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: -25px;
+  font-family: "Bodoni MT", serif;
+}
+
+.texte {
+  text-align: center;
+  font-size: 20px;
+  font-family: "DidotReg-GPSR15", serif;
+}
+
+select,
+option {
+  font-family: "DidotItal-GPSR15", serif;
+  font-size: 18px;
+}
