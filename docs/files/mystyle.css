@@ -1,33 +1,45 @@
-body {}
+body {
+    margin: 0;
+    padding: 2vw;
+    box-sizing: border-box;
+}
 
 .titre {
-  color: #a54;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 25px;
-  font-family: "Bodoni MT", serif;
+    color: #a54;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2vw;
+    font-family: "Bodoni MT", serif;
 }
 
 .texte {
-  text-align: left;
-  font-size: 20px;
-  font-family: "DidotReg-GPSR15", serif;
-  line-height: 1;
-  margin-bottom: 0;
-}
-
-select,
-option {
-  font-family: "DidotItal-GPSR15", serif;
-  font-size: 18px;
+    text-align: left;
+    font-size: 20px;
+    font-family: "DidotReg-GPSR15", serif;
+    line-height: 1;
+    margin-bottom: 0;
 }
 
 .texte em {
-  font-style: normal;
-  font-family: "DidotItal-GPSR15", serif;
+    font-style: normal;
+    font-family: "DidotItal-GPSR15", serif;
+}
+
 select,
 option {
-  font-family: "DidotItal-GPSR15", serif;
-  font-size: 18px;
+    font-family: "DidotItal-GPSR15", serif;
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 4vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        padding: 3vw;
+    }
 }

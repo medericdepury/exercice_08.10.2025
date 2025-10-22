@@ -2,13 +2,11 @@ body {
     margin: 0;
     padding: 2vw;
     box-sizing: border-box;
-    font-family: "DidotReg-GPSR15", serif;
-    background-color: #fff;
 }
 
 .titre {
     color: #a54;
-    font-size: 5vw;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 2vw;
@@ -17,11 +15,10 @@ body {
 
 .texte {
     text-align: left;
-    font-size: 1.5vw;
-    line-height: 1.4;
-    margin-bottom: 1vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    font-size: 20px;
+    font-family: "DidotReg-GPSR15", serif;
+    line-height: 1;
+    margin-bottom: 0;
 }
 
 .texte em {
@@ -32,19 +29,12 @@ body {
 select,
 option {
     font-family: "DidotItal-GPSR15", serif;
-    font-size: 1.2vw;
+    font-size: 18px;
 }
 
 @media (max-width: 600px) {
-    .titre {
-        font-size: 8vw;
-    }
-    .texte {
-        font-size: 3vw;
-    }
-    select,
-    option {
-        font-size: 3vw;
+    body {
+        padding: 4vw;
     }
 }
 
