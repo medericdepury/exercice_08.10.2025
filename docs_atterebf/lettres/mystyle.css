@@ -1,0 +1,41 @@
+
+a {
+    color: rgb(55, 31, 153);
+}
+
+
+body {
+  background-color: lightblue;
+  box-sizing: content-box;  
+  padding: 50px; 
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+p {
+    padding-top: 1%;
+}
+
+
+.organisation {
+    color: rgb(135, 41, 186)    ;
+}
+
+
+.home_index {
+    padding-top: 1%;
+    font-size: smaller;
+} 
+
+.person {
+    color: rgb(212, 71, 71);
+}
+
+.title {
+    font-size: large;
+    font-style: oblique;
+    font-weight: 1,5;
+}
