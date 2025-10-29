@@ -74,5 +74,9 @@ a {
 a:hover {
     text-decoration: none;
     color: #6ca0dc;
+}
 
+a.nature:hover {
+    text-decoration: none;
+    color: #6ca;
 }
